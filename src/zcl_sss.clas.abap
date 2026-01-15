@@ -24,7 +24,7 @@ CLASS zcl_sss IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD if_oo_adt_classrun~main.
-    out->write( 'testHURA' ).
+    out->write( 'Каждый день пытайся хоть что то сделать. Необязательно много - сначала очень тяжело что то вспомнить.' ).
     zcl_sss=>Test1( out ).
   ENDMETHOD.
 ENDCLASS.
